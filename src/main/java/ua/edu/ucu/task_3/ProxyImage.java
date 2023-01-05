@@ -1,5 +1,8 @@
 package ua.edu.ucu.task_3;
 
+import lombok.Getter;
+
+@Getter
 public class ProxyImage implements MyImage {
     private String filename;
     private RealImage realImage;
