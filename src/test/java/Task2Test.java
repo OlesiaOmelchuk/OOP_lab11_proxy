@@ -7,12 +7,7 @@ import ua.edu.ucu.task_2.Gender;
 import ua.edu.ucu.task_2.GiftMail;
 
 public class Task2Test {
-    private Client client;
-
-    @BeforeEach
-    public void init() {
-        client = new Client("Bob", Gender.MALE, 34, "bob@mail.com");
-    }
+    private Client client = new Client("Bob", Gender.MALE, 34, "bob@mail.com");
 
     @Test
     public void testClient() {
